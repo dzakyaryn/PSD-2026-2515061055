@@ -119,3 +119,6 @@ Baris 6 (sedang memutar: Somebody pleasure): Ini adalah efek dari perintah yd_mu
 Baris 7 (lagu terakhir berhasil dihapus): Ini dari fungsi yd_music.hapus_lagu(). Lagu "Happiness" yang tadinya ada di urutan belakang, kini sudah dibuang dari memori.
 
 Baris 8 (sedang memutar: Somebody pleasure): kembali memanggil yd_music.putar_sekarang(). Karena indeks saat ini menunjuk ke lagu "Somebody pleasure", maka sistem menampilkan lagu tersebut.
+
+#link youtube
+https://youtu.be/lHAiQEeulsM

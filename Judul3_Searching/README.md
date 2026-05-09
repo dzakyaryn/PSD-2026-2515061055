@@ -98,3 +98,4 @@ Ini adalah iterasi langkah kedua. Setelah menyesuaikan area pencarian di sebelah
 Baris 6: Ketemu pada indeks ke-7
 Karena nilai pada tebakan terakhir sudah cocok dengan nilai target yang dimasukkan pengguna (75 == 75), program menghentikan proses pencarian dan menampilkan kesimpulan akhir bahwa data tersebut berhasil ditemukan di posisi indeks ke-7.
 # Link youtube
+https://youtu.be/nhO3bkeTO-8

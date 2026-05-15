@@ -224,7 +224,7 @@ Berkat algoritma ini, meskipun kapasitas antrean hanya 3 dan kita sudah memutar 
 
 Pilih: 2 : Pengguna kembali mengetik angka 2 untuk memutar lagu.
 
-sedang memutar: Shape Of My Heart : Nah, ini dia keajaibannya! Setelah lagu ketiga ("Blue") diputar sebelumnya, sistem kini memutar kembali lagu pertama ("Shape Of My Heart"). Ini membuktikan bahwa penunjuk antrean berhasil berputar (looping) kembali ke awal menggunakan rumus modulo.
+sedang memutar: Shape Of My Heart : Setelah lagu ketiga ("Blue") diputar sebelumnya, sistem sekarang memutar kembali lagu pertama ("Shape Of My Heart"). Ini membuktikan bahwa penunjuk antrean berhasil berputar (looping) kembali ke awal menggunakan rumus modulo.
 
 Lagu Shape Of My Heart berhasil ditambahkan : Lagu pertama tersebut kembali dipindahkan ke akhir antrean untuk menjaga siklus tetap berjalan tanpa batas.
 

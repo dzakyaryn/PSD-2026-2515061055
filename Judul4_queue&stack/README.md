@@ -242,3 +242,4 @@ Pilih: 3 : Pengguna mengetik angka 3, yang merupakan instruksi untuk menghentika
 Program selesai. : Sistem mencetak pesan penutup. Siklus while resmi berhenti, memori dibebaskan, dan eksekusi program Python berakhir sepenuhnya di titik ini.
 
 # Link Youtube
+https://youtu.be/ei3KvXhs8_0

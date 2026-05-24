@@ -1,9 +1,10 @@
 # Pengelolaan Jadwal Kelas Mata Kuliah
+
 # Deskripsi Singkat
 Pengelolaan jadwal kelas mata kuliah pada sistem akademik merupakan contoh nyata di mana rentang waktu harus disusun secara terstruktur agar dapat berjalan tanpa adanya tabrakan mata kuliah. Ketika pihak kampus menambahkan berbagai mata kuliah ke dalam sebuah ruangan, data berupa alokasi waktu tersebut membentuk daftar kalender yang merepresentasikan urutan agenda yang siap untuk dilaksanakan. Pengelola sering kali perlu memastikan rangkaian perkuliahan berjalan tertib, seperti menghindari dimulainya kelas baru sebelum kelas sebelumnya benar-benar selesai. Sistem harus mampu memvalidasi celah waktu dan mendeteksi potensi tabrakan secara instan, tanpa harus menghentikan aplikasi atau meminta pengguna menelusuri daftar jadwal secara manual satu per satu.
-
-# Output Code
 Untuk mengatasi masalah tersebut, struktur data dan algoritma yang sangat tepat untuk diterapkan pada skala penjadwalan ini adalah Binary Search Tree (BST) Lanjutan. Algoritma ini dipilih karena memiliki cara kerja yang sangat efisien dan cerdas dalam memvalidasi ketersediaan waktu menggunakan operasi pencarian batas rentang melalui fitur Predecessor (jadwal tepat sebelumnya) dan Successor (jadwal tepat setelahnya). BST Lanjutan juga beroperasi dengan mengurutkan titik waktu secara logis ke dalam cabang-cabang pohon pencarian, sehingga proses komputasinya sangat cepat, optimal, dan fleksibel untuk memproses penyisipan ribuan jadwal perkuliahan tanpa membebani kinerja sistem basis data kampus.
+
+# output code
 <img width="845" height="395" alt="Screenshot 2026-05-24 091259" src="https://github.com/user-attachments/assets/e2fdac84-a063-42cc-b394-c309a5e127d7" />
 Baris 1 (Mendefinisikan class NodeKelas sebagai cetak biru untuk simpul dalam BST)
 
@@ -359,5 +360,6 @@ input : Menu 2 (hapus jam 0800 ), Menu 2 (hapus jam 1100 Pengling), lalu ditutup
 
 output : Muncul penolakan Jadwal tidak ditemukan! untuk jam 0800, lalu pesan Jadwal... berhasil dibatalkan untuk jam 1100. Menu 3 menunjukkan daftar jadwal kembali utuh menyisakan dua kelas awal.
 
-
+# link Yotube
+https://youtu.be/H3NERA0UeTU
 

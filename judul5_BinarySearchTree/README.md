@@ -361,5 +361,5 @@ input : Menu 2 (hapus jam 0800 ), Menu 2 (hapus jam 1100 Pengling), lalu ditutup
 output : Muncul penolakan Jadwal tidak ditemukan! untuk jam 0800, lalu pesan Jadwal... berhasil dibatalkan untuk jam 1100. Menu 3 menunjukkan daftar jadwal kembali utuh menyisakan dua kelas awal.
 
 # link Yotube
-https://youtu.be/H3NERA0UeTU
+https://youtu.be/U-WfaRFI-dI (EDITED: Upload Gagal)
 

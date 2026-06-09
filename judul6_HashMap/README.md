@@ -1,10 +1,10 @@
-Pencarian produk e-commerce berbasis SKU
+# Pencarian produk e-commerce berbasis SKU
 
-Deskripsi Singkat
+# Deskripsi Singkat
 Pencarian produk pada platform e-commerce berskala besar merupakan contoh nyata di mana jutaan barang harus dikelola secara terstruktur agar dapat ditemukan dengan sangat cepat tanpa adanya penundaan. Ketika pihak penjual menambahkan berbagai macam barang ke dalam sistem inventaris digital, data berupa kode Stock Keeping Unit (SKU) tersebut membentuk sebuah katalog raksasa yang merepresentasikan identitas unik setiap produk yang siap untuk ditransaksikan. Sistem sering kali perlu merespons kueri pencarian secara instan, seperti menampilkan harga, sisa stok, dan lokasi rak barang sesaat setelah kode SKU diketik atau dipindai (scan). Sistem harus mampu mencocokkan kode ini dan menangani potensi tabrakan indeks memori (collision) secara langsung, tanpa harus menghentikan aplikasi atau meminta mesin menelusuri daftar jutaan produk secara manual satu per satu. 
 
 Untuk mengatasi masalah tersebut, struktur data dan algoritma yang sangat tepat untuk diterapkan pada skala pencarian ini adalah Hash Map dengan metode Separate Chaining. Algoritma ini dipilih karena memiliki cara kerja yang sangat efisien dan cerdas dalam menemukan lokasi barang menggunakan operasi penerjemahan key alfanumerik (SKU) menjadi alamat indeks langsung melalui fungsi hash. Hash Map Separate Chaining juga beroperasi dengan mengelompokkan data yang memiliki indeks identik secara logis ke dalam rantai linked list di setiap bucket-nya, sehingga proses komputasinya sangat cepat (O(1)), optimal, dan fleksibel untuk memproses pencarian maupun penyisipan jutaan produk baru tanpa membebani kinerja peladen (server) utama e-commerce.
-Source Code
+#Source Code
 <img width="840" height="423" alt="Screenshot 2026-06-09 225733" src="https://github.com/user-attachments/assets/ce85b196-e711-4cdb-a2fd-d38f2321d594" />
 Baris 1: class Node: — Membuat cetakan (blueprint) untuk menyimpan data satu produk.
 
@@ -94,9 +94,9 @@ Baris 59: print("\nCari 'TV-55':", hm.search("TV-55")) — Meminta sistem mencar
 
 Baris 60: print("Cari 'HP-01':", hm.search("HP-01")) — Meminta sistem mencari "HP-01" (pasti tidak ketemu / None).
 
-Output Code
+# Output Code
 <img width="822" height="130" alt="Screenshot 2026-06-09 225835" src="https://github.com/user-attachments/assets/9fcc4c99-d761-4851-9eed-a4735225164c" />
 Berdasarkan hasil output yang ditampilkan, terlihat bahwa fungsi hash berhasil mendistribusikan kelima data produk secara merata dan sempurna ke dalam lima slot rak memori yang tersedia (Rak 0 hingga Rak 4). Karena setiap SKU produk menghasilkan nilai indeks yang berbeda-beda, sistem tidak mengalami penumpukan data (collision), sehingga masing-masing rak hanya berisi tepat satu barang yang langsung diakhiri dengan penanda batas NULL. Selanjutnya, pada tahap uji coba pencarian, sistem berhasil menampilkan nama "Smart TV Samsung" saat mencari SKU 'TV-55' karena data tersebut cocok dan terdeteksi di dalam antrean rak yang dituju. Sebaliknya, saat sistem diminta mencari SKU fiktif 'HP-01', hasil yang dikembalikan adalah None (kosong) karena setelah rak tujuannya diperiksa hingga batas akhir antrean, kode barang tersebut memang tidak pernah tercatat di dalam memori.
 
-Link Youtube
+# Link Youtube
 https://youtu.be/Wk_IuYLRfYk
